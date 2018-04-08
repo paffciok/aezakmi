@@ -1,0 +1,549 @@
+.ui-group-buttons .or{position:relative;float:left;width:.3em;height:1.3em;z-index:3;font-size:12px;}
+.ui-group-buttons .or:before{position:absolute;top:50%;left:50%;content:'';background-color:#5a5a5a;margin-top:-.1em;margin-left:-.9em;width:1.8em;height:1.8em;line-height:1.55;color:#fff;font-style:normal;font-weight:400;text-align:center;border-radius:500px;-webkit-box-shadow:0 0 0 1px rgba(0,0,0,0.1);box-shadow:0 0 0 1px rgba(0,0,0,0.1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.ui-group-buttons .or:after{position:absolute;top:0;left:0;content:' ';width:.3em;height:2.84em;background-color:rgba(0,0,0,0);border-top:.6em solid #5a5a5a;border-bottom:.6em solid #5a5a5a}
+.ui-group-buttons .or.or-lg{height:1.3em;font-size:16px}
+.ui-group-buttons .or.or-lg:after{height:2.85em}
+.ui-group-buttons .or.or-sm{height:1em}
+.ui-group-buttons .or.or-sm:after{height:2.5em}
+.ui-group-buttons .or.or-xs{height:.25em}
+.ui-group-buttons .or.or-xs:after{height:1.84em;z-index:-1000}
+.ui-group-buttons{display:inline-block;vertical-align:middle;}
+.ui-group-buttons:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.ui-group-buttons .btn{float:left;border-radius:0;font-size: 25px; font-weight: 550;}
+.ui-group-buttons .btn:first-child{margin-left:0;border-top-left-radius:.25em;border-bottom-left-radius:.25em;padding-right:15px}
+.ui-group-buttons .btn:last-child{border-top-right-radius:.25em;border-bottom-right-radius:.25em;padding-left:15px}
+
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+.sidebarInput
+{
+    padding-left: 150px;
+}
+.navbar li
+{
+    padding-right: 5px;
+}
+
+.active
+{
+    border-bottom: 3px solid rgba(87, 154, 255, 0.877);
+}
+
+#header 
+{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 350px;
+    background: url("headerbg.jpg");
+    background-position: 1% 50%;
+    background-size: 100%;
+    opacity: 1;
+}
+
+#header .logo
+{
+    position: relative;
+    top: 25%;
+    left: 20%;
+    width: 250px;
+}
+
+#header .logo h1
+{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+#header .logo h2
+{
+    color: rgb(255, 251, 15);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#header .headerNavbar li
+{
+    padding-left: 20px;
+}
+
+#header .offersList
+{
+    padding-top: 80px;
+}
+
+#header ul
+{
+    list-style-type: none;
+    color: white;
+    margin-top: 50px;
+}
+
+#header .offersList h1
+{
+    margin-bottom: 35px;
+    color: white;
+    font-weight: 500;
+}
+#header  li
+{
+    padding-left: 1px;
+    display: inline-block; 
+}
+
+.headerNavbar a
+{
+    font-size: 22px;
+}
+#header  a
+{
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+#header .headerNavbar  a:hover
+{
+    color: #ccff12;
+    transition: 0.3s;
+}
+
+.myButton {
+    background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+	padding: 10px 35px;
+     margin: 0px 1px 1px 0px;
+    float: left;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.myButton:hover {
+    background-color: rgb(57, 176, 255);
+    transition: 0.3s;
+}
+#content
+{
+    background-color: #e9ecf2;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.offer
+{
+    background-color: white;
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.offer:hover
+{
+    background-color: rgb(226, 241, 255);
+}
+
+.offer:nth-of-type(2), .offer:nth-of-type(4), .offer:nth-of-type(6)
+{
+    background-color: rgb(255, 255, 239);
+    transition: 0.3s;
+}
+
+.offer:nth-of-type(2):hover, .offer:nth-of-type(4):hover, .offer:nth-of-type(6):hover
+{
+    background-color:  rgb(226, 241, 255);
+    transition: 0.3s;
+}
+
+.offer:nth-of-type(n+5)
+{
+    display: none;
+}
+
+.suspended
+{
+    opacity: 0.2;
+}
+
+.offer img
+{
+    width: 100%;
+    height: 200px;
+}
+.offer h1
+{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+#content .offer a
+{
+    text-decoration: none;
+}
+
+#content .offer h2
+{
+    margin-left: 6%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#content hr
+{
+    margin-left: 25px;
+    width: 300px;
+}
+
+.infoButton
+{
+    margin-top: -20px; 
+    float: right;
+}
+
+.offerRightList
+{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.contentHeader
+{
+    margin-left: 25px;
+}
+
+.offerPrice
+{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.offerArea
+{
+    font-size: 12px;
+}
+
+.offerLeftList
+{
+    list-style-type: none;
+    margin-left: -30px;   
+}
+
+.offerLeftElement
+{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rooms
+{
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.price
+{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.test
+{
+    z-index: inherit;
+    font-size: 1px;
+}
+
+.offer p
+{
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+#footer
+{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(132, 179, 211);
+    padding-top: 20px;
+}
+
+#footer h6
+{
+    text-align: center;
+    float: center;
+    color: white;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 75px;
+    background-color: #f8f9fa;
+}
+
+.map{
+    position:relative;
+	
+}
+/* google map */
+#google-map{
+    position:relative;
+    height: 400px;
+}
+
+.offerMap
+{
+    width: auto;
+    height: auto;
+}
+
+#contact
+{
+    background-color: white;
+}
+
+#contact h1
+{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+#contact ul
+{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+#contact li
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#contact .leftPhone
+{
+    display: inline-block;
+    float: left;
+}
+
+#contact img
+{
+    width: 40px;
+    height: auto;
+    padding-right: 15px;
+}
+
+#contact .rightPhone
+{
+    display: inline-block;
+    float: right;
+    margin-right: 55px;
+}
+
+#contact textarea
+{
+    margin-bottom: 15px;
+}
+
+#contact input
+{
+    margin-bottom: 15px;
+}
+
+#contact .mail
+{
+    float: left;
+}
+
+#offerSite
+{
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+#offerSite p
+{
+    font-size: 14px;
+}
+
+#offerSite h1
+{
+    color: rgb(50, 153, 221);
+}
+
+
+#offerSite h2
+{
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+
+.imageWrapper
+{
+    max-width: 470px;
+    max-height: 340px;
+}
+
+.imageWrapper img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#offerSite ul
+{
+    margin-left: -20px;
+}
+#offerSite li
+{
+    border-bottom:1px solid rgb(218, 218, 218);;
+    float:left;
+    display:inline;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+#offerSite li:nth-of-type(odd)
+{
+    font-weight: 600;
+    background-color: white;
+}
+
+#offerSite li:nth-of-type(even)
+{
+    padding-left: 50px;
+}
+
+#offerSite li:nth-last-child(1)
+{
+    margin-bottom: 15px;
+}
+
+#offerSite .agent
+{
+    font-size: 25px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+#offerSite .phone
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    margin-top: -12px;
+}
+
+#offerSite .contactAgent
+{
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+#offerSite .licence
+{
+    font-size: 12px;
+}
+
+#double li 
+{
+     width:50%;
+}
+
+.navbar-toggler {
+    border-color: transparent; /* Removes border color */
+    float: left; /* Move navbar toggle to left */
+  }
+.navbar-toggler .icon-bar {
+    background-color: #f00; /* Changes regular toggle color */
+  }
+.navbar-toggler .icon-bar:hover {
+    background-color: #fff; /* Changes toggle color on hover */
+  }
+
+  @media (max-width: 768px)
+  {
+      #header
+      {
+          background-size: 270%;
+          background-position: 20% 1%;
+      }
+      #header .offersList
+      {
+        padding-top: 10px;
+      }
+
+      #header .offersList h1
+      {
+          font-size: 25px;
+      }
+
+      .ui-group-buttons .btn
+      {
+          font-size: 20px;
+      }
+
+      #content
+      {
+          padding-top: 0px;
+      }
+
+      #contact li
+      {
+          font-size: 22px;
+      }
+  }
+
+  @media (min-width: 478px) and (max-width: 1112px)
+  {
+
+    #header
+    {
+        background-size: 270%;
+        background-position: 20% 1%;
+    }    
+    #header .offersList
+    {
+        padding-top: 30px;
+    }
+  }
+
+  @media(max-width: 390px)
+  {
+      .offer
+      {
+          width: 135%;
+          height: 315px;
+      }
+
+      .offerPrice
+      {
+          font-size: 18px;
+      }
+  }
+
